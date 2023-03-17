@@ -1,6 +1,6 @@
-import { operationsFeesCalculator } from './helpers/operationsFeesCalculator.mjs'
-import { parseJsonFile } from './helpers/jsonParser.mjs'
-import { getOperationConfigs } from './helpers/syncConfigs.mjs'
+import { parseJsonFile } from './src/helpers/jsonParser.mjs'
+import { getOperationConfigs } from './src/helpers/syncConfigs.mjs'
+import { operationsFeesCalculator } from './src/helpers/operationsFeesCalculator.mjs'
 
 const inputFilePath = process.argv[2]
 
